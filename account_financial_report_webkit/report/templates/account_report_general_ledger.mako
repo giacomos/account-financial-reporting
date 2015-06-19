@@ -193,7 +193,7 @@
                           ## partner
                           <div class="act_as_cell overflow_ellipsis">${line.get('partner_name') or ''}</div>
                           ## move reference
-                          <div class="act_as_cell">${line.get('lref') or ''}</div>
+                          <div class="act_as_cell">${line.get('supplier_invoice_number') or ''}</div>
                           ## label
                           <div class="act_as_cell">${label}</div>
                           ## counterpart

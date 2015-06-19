@@ -524,6 +524,7 @@ class CommonReportHeaderWebkit(common_report_header):
             i.id AS invoice_id,
             i.type AS invoice_type,
             i.number AS invoice_number,
+            i.supplier_invoice_number AS supplier_invoice_number,
             l.date_maturity
         """
 
